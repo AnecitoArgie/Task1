@@ -1,0 +1,138 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: sans-serif;
+
+    
+}
+#nav-bar{
+    position: sticky;
+    top: 0 ;
+    z-index: 10;
+    background-color: #201f33;
+
+}
+.navbar
+{
+   
+    padding: 0 !important;
+ 
+}.nav-item span{
+    color:#fff;
+}.navbar img{
+    width: 50%;
+}
+
+
+
+/*-------------- banner section----------------------*/
+#banner{
+
+   
+    background-color: #fff;
+    width: 100%;
+    
+}.banner-bg{
+    background-image:url("https://pictures.dealer.com/j/jakesweeneymazda/1849/cf7d8585d1854db5b4fb3f7b5a4ad0eax.jpg");
+    background-position: center;
+    max-width: auto;
+    height: 500px;
+    color: #fff;
+    background-size: cover;
+}.number{
+    font-weight: 600;
+}.ttle2{
+    box-shadow: #201f33;
+    font-weight: 600;
+    font-size: 40px;
+    text-shadow: rgb(0, 0, 0) 0px 0px 15px;
+}
+
+
+
+/*-------------------------img scale section------------------------------*/
+.imgscale2{
+    width: 100%;
+    transition: transform .5s ease;
+    object-fit: cover;
+
+}.imgscale:hover{
+    transform: scale(1.1);
+ 
+}
+/*-------------------------margin section section------------------------------*/
+.spacestop1{
+    margin-top: 20;
+}
+
+/*-------------------------elevate section------------------------------*/
+
+@media screen and (max-width: 767px) {
+}#elevate {
+    padding-left: 20 !important;
+    padding-right: 20 !important;
+    background-color: #b4b3bd;
+}@media screen and (min-width: 760px) {
+    #elevate {
+        padding-left: 20 !important;
+    padding-right: 20 !important;
+        background-color:#f7f5fc;
+    }
+
+
+}
+
+#elevate h2, h3{
+    font-weight: 600;
+}
+
+.elevate-img{
+    height: 445px;
+   
+} .mazdaline{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}.mod{
+    margin-top: 20;
+   position: center;
+}.mod img{
+    width: 100%;
+ height: 195px;
+ transition: transform .5s ease;
+ object-fit: cover;
+}.img-row img{
+    width: 100%;
+    height: 195px;
+    transition: transform .5s ease;
+    object-fit: cover;
+}.img-car2 img{  
+    width: 100%;
+}.purchased .btn-primary{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    
+}#footer{
+    margin-top: 20;
+    background-color: #000605 ;
+    color: #fff;
+ }.link a{
+    color: #fff;
+ }.link{
+    width: 100%;
+    margin-top: 40;
+    /* -----------zoom ------------------ */
+ }.zoom{
+    overflow: hidden;
+ }
+
+ 
+
